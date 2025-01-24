@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Kanban Board 🗓️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React + Vite based application.
+It allows student to add their assignments or tasks on the Kanban board and manage its progress by dragging and dropping the tasks from one section to another. 
+The idea was to create a virtual Kanban Board that allows students to move their sticky notes around but digitally.
 
-Currently, two official plugins are available:
+**Skills used**
+- React
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+# Installation ⚙️
+To get this React application running here are the steps you should follow:
+```npm install
+npm create vite@latest
+cd <project-name>
+npm install
+npm run dev
+npm install yarn
+yarn run dev --host
 ```
+After this follow the localhost link to see the website
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+# References Used 🌐
+- For icons: https://ionic.io/ionicons
+- For icons: https://reactnativeelements.com/docs/1.2.0/icon
+
+
+
+
