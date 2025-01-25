@@ -7,6 +7,9 @@ The idea was to create a virtual Kanban Board that allows students to move their
 **Skills used**
 - React
 - Tailwind CSS
+- Javascript
+
+![Project Screenshot](documentation/KanbanBoard2.png)
 
 
 # Installation ⚙️
